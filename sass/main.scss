@@ -3,7 +3,7 @@
 @import './base/common';
 @import './components/container';
 @import './utils/hiden';
-@import './logo';
+@import './layout/logo';
 @import './layout/header';
 @import './layout/hero';
 @import './layout/advantages';
@@ -12,4 +12,4 @@
 @import './layout/regular-customers';
 @import './layout/footer';
 @import './layout/portfolio-hero';
-@import './modal';
+@import './components/modal';

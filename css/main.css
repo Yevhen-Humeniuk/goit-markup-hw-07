@@ -120,10 +120,18 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-link:hover, .header-link:focus, .header-link:active {
+  color: var(--accent-color);
+}
+
 .connect-list {
   align-items: center;
   display: flex;
   margin-left: auto;
+}
+
+.connect-list:hover, .connect-list:focus, .connect-list:active {
+  color: var(--accent-color);
 }
 
 .conect-item-mail {
@@ -164,13 +172,7 @@ body {
 .tel-link:active,
 .mail-link:hover,
 .mail-link:focus,
-.mail-link:active,
-.header-link:hover,
-.header-link:focus,
-.header-link:active,
-.connect-list:hover,
-.connect-list:focus,
-.connect-list:active {
+.mail-link:active {
   color: var(--accent-color);
 }
 
@@ -235,9 +237,7 @@ body {
   border: transparent;
 }
 
-.hero-btn:hover,
-.hero-btn:focus,
-.hero-btn:active {
+.hero-btn:hover, .hero-btn:focus, .hero-btn:active {
   color: var(--hero-text-color);
 }
 
@@ -408,9 +408,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-socials-link:hover,
-.team-socials-link:focus,
-.team-socials-link:active {
+.team-socials-link:hover, .team-socials-link:focus, .team-socials-link:active {
   background-color: var(--accent-color);
 }
 
@@ -470,16 +468,14 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.regular-customers-link:hover, .regular-customers-link:focus, .regular-customers-link:active {
+  border-color: var(--accent-color);
+}
+
 .customers-icons {
   fill: var(--icons-socisls-color);
   transition: fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.regular-customers-link:hover,
-.regular-customers-link:focus,
-.regular-customers-link:active {
-  border-color: var(--accent-color);
 }
 
 .regular-customers-link:hover .customers-icons,
@@ -523,6 +519,10 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-item-adres:focus, .footer-item-adres:hover, .footer-item-adres:active {
+  color: var(--hero-text-color);
+}
+
 .footer-link {
   text-decoration: none;
   font-style: normal;
@@ -535,17 +535,12 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-list-item + .footer-list-item {
-  margin-top: 9px;
+.footer-link:hover, .footer-link:focus, .footer-link:active {
+  color: var(--hero-text-color);
 }
 
-.footer-item-adres:focus,
-.footer-item-adres:hover,
-.footer-item-adres:active,
-.footer-link:hover,
-.footer-link:focus,
-.footer-link:active {
-  color: var(--hero-text-color);
+.footer-list-item + .footer-list-item {
+  margin-top: 9px;
 }
 
 .footer-socials-title {
