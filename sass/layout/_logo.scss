@@ -7,9 +7,11 @@
   letter-spacing: 0.03em;
 }
 .logo-upper {
+  @extend .link-logo;
   color: #000000;
 }
 
 .logo-down {
+  @extend .link-logo;
   color: #ffffff;
 }

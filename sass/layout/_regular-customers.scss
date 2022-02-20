@@ -10,12 +10,13 @@
   display: flex;
 }
 .regular-customers-item {
+  & + & {
+    margin-left: 30px;
+  }
   width: 170px;
   height: 92px;
 }
-  & + & {
-  margin-left: 30px;
-}
+
 .regular-customers-link {
   border: 1px solid var(--icons-socisls-color);
   border-radius: 4px;
