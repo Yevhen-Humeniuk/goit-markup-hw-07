@@ -1,8 +1,6 @@
 .regular-customers-title {
-  font-size: 36px;
-  line-height: 1.16;
+  @include text-font(null, 36px, 1.16, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--header-links-title-text-color);
 }
 .regular-customers-list {

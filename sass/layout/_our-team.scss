@@ -3,10 +3,8 @@
 }
 .our-team-title {
   margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.16;
+  @include text-font(null, 36px, 1.16, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--header-links-title-text-color);
 }
 .our-team-list {
@@ -26,18 +24,14 @@
   padding-bottom: 30px;
 }
 .team-item-title {
-  font-size: 16px;
-  line-height: 1.18;
+  @include text-font(null, 16px, 1.18, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--header-links-title-text-color);
 }
 .team-item-posttitle {
   margin-top: 10px;
-  font-size: 16px;
-  line-height: 1.18;
+  @include text-font(null, 16px, 1.18, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
