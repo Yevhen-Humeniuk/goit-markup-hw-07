@@ -12,7 +12,7 @@
   background-position: center;
   background-size: cover;
 }
-.hero-title {
+.hero-section__title {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -20,7 +20,7 @@
   @include text-font(null, 44px, 1.36, 0.06em);
   text-transform: uppercase;
 }
-.hero-btn {
+.hero-section__btn {
   min-width: 200px;
   height: 50px;
   font-family: inherit;

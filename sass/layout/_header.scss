@@ -8,16 +8,16 @@
   align-items: center;
   display: flex;
 }
-.header-list {
+.navigation__list {
   margin-left: 93px;
   display: flex;
 }
-.header-item {
+.navigation__item {
   & + & {
     margin-left: 50px;
   }
 }
-.header-link {
+.navigation__link {
   padding-top: 32px;
   padding-bottom: 32px;
   text-decoration: none;
@@ -31,7 +31,7 @@
     color: var(--accent-color);
   }
 }
-.connect-list {
+.header__list {
   align-items: center;
   display: flex;
   margin-left: auto;
@@ -41,11 +41,11 @@
     color: var(--accent-color);
   }
 }
-.conect-item-mail {
+.header__item-mail {
   margin-right: 50px;
 }
 
-.tel-link {
+.header__tel-link {
   align-items: center;
   display: flex;
   padding-top: 32px;
@@ -61,7 +61,7 @@
     color: var(--accent-color);
   }
 }
-.mail-link {
+.header__mail-link {
   align-items: center;
   display: flex;
   padding-top: 32px;
@@ -77,13 +77,13 @@
     color: var(--accent-color);
   }
 }
-.mail-icon {
+.header__mail-icon {
   margin-right: 10px;
   justify-content: center;
   align-items: center;
   fill: currentColor;
 }
-.tel-icon {
+.header__tel-icon {
   margin-right: 10px;
   align-items: center;
   fill: currentColor;

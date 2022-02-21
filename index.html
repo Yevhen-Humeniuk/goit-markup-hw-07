@@ -22,17 +22,17 @@
         <div class="container header-container">
         <nav class="navigation">
             <a href="index.html" class="link-logo"> Web<span class="logo-upper">Studio</span></a>
-            <ul class="header-list">
-                <li class="header-item"><a href="index.html" class="header-link current">Студия</a></li>
-                <li class="header-item"><a href="portfolio.html" class="header-link">Портфолио</a></li>
-                <li class="header-item"><a href="" class="header-link">Контакты</a></li>
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="index.html" class="navigation__link current">Студия</a></li>
+                <li class="navigation__item"><a href="portfolio.html" class="navigation__link">Портфолио</a></li>
+                <li class="navigation__item"><a href="" class="navigation__link">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="connect-list">
-            <li class="conect-item-mail">
-                <a href="mailto:info@devstudio.com" class="mail-link"><svg class="mail-icon" width="16" height="12"><use href="./images/icons.svg#icon-envelope"></use> </svg>info@devstudio.com</a></li>
-            <li class="conect-item-tel">
-                <a href="tel:+380961111111" class="tel-link"><svg class="tel-icon" width="10" height="16">
+        <ul class="header__list">
+            <li class="header__item-mail">
+                <a href="mailto:info@devstudio.com" class="header__mail-link"><svg class="header__mail-icon" width="16" height="12"><use href="./images/icons.svg#icon-envelope"></use> </svg>info@devstudio.com</a></li>
+            <li class="header__item-tel">
+                <a href="tel:+380961111111" class="header__tel-link"><svg class="header__tel-icon" width="10" height="16">
                     <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>+380961111111</a></li>
         </ul>
@@ -42,71 +42,72 @@
     <main class="hero">
         <section class="hero-section">
             <div class="container">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="hero-btn" data-modal-open>Заказать услугу</button>
+            <h1 class="hero-section__title">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="hero-section__btn" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <!--переваги -->
         <section class="section">
             <div class="container">
             <h2 class="visually-hidden"> Наши премиущества</h2>
-            <ul class="advantages-list">
-                <li class="advantages-item"><div class="avantages-icons-container"><svg class="advantages-icon" width="70" height="70">
+            <ul class="section__list">
+                <li class="section__item"><div class="avantages-icons-container"><svg class="advantages-icon" width="70" height="70">
                         <use href="./images/icons.svg#icon-antenna"></use>
                     </svg></div>
-                    <h3 class="advantages-title">Внимание к деталям</h3>
-                    <p class="advantages-posttitle">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="section__title">Внимание к деталям</h3>
+                    <p class="section__posttitle">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li class="advantages-item"><div class="avantages-icons-container"><svg class="advantages-icon" width="70" height="70">
+                <li class="section__item"><div class="avantages-icons-container"><svg class="advantages-icon" width="70" height="70">
                         <use href="./images/icons.svg#icon-clock"></use>
                     </svg></div>
-                    <h3 class="advantages-title">Пунктуальность</h3>
-                    <p class="advantages-posttitle">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="section__title">Пунктуальность</h3>
+                    <p class="section__posttitle">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li class="advantages-item"><div class="avantages-icons-container"><svg class="advantages-icon" width="70" height="70">
+                <li class="section__item"><div class="avantages-icons-container"><svg class="advantages-icon" width="70" height="70">
                         <use href="./images/icons.svg#icon-diagram"></use>
                     </svg></div>
-                    <h3 class="advantages-title">Планирование</h3>
-                    <p class="advantages-posttitle">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="section__title">Планирование</h3>
+                    <p class="section__posttitle">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li class="advantages-item"><div class="avantages-icons-container"><svg class="advantages-icon" width="70" height="70">
+                <li class="section__item"><div class="avantages-icons-container"><svg class="advantages-icon" width="70" height="70">
                         <use href="./images/icons.svg#icon-astronaut"></use>
                     </svg></div>
-                    <h3 class="advantages-title">Современные технологии</h3>
-                    <p class="advantages-posttitle">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="section__title">Современные технологии</h3>
+                    <p class="section__posttitle">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
             </div>
         </section>
         <!--чим-ми-займаємось-->
-        <section class="what-do-section section">
+        <section class="production-section section">
             <div class="container">
-            <h2 class="what-do-title">Чем мы занимаемся</h2>
-            <ul class="what-do-list">
-                <li class="do-img"><div class="what-do-thumb">
-                    <img class="" src="./images/what-we-do-sec/img.jpg" alt="руки печатают на клавиатуре" width="370" height="294"><div class="paragraf-container"><p class="what-do-posttitle">Десктопные приложения</p></div></div>
+            <h2 class="production-section__title">Чем мы занимаемся</h2>
+            <ul class="production-section__list">
+                <li class="production-section__item"><div class="what-do-thumb">
+                    <img class="" src="./images/what-we-do-sec/img.jpg" alt="руки печатают на клавиатуре" width="370"
+                    height="294"><div class="paragraf-container"><p class="production-section__posttitle">Десктопные приложения</p></div></div>
                 </li>
-                <li class="do-img"><div class="what-do-thumb">
+                <li class="production-section__item"><div class="what-do-thumb">
                     <img class="" src="./images/what-we-do-sec/box2.jpg"
                         alt="девушка левой рукой держит смартфон,а правой печатает на ноутбуке" width="370"
-                        height="294"><div class="paragraf-container"><p class="what-do-posttitle">Мобильные приложения</p></div></div></li>
-                <li class="do-img"><div class="what-do-thumb">
+                        height="294"><div class="paragraf-container"><p class="production-section__posttitle">Мобильные приложения</p></div></div></li>
+                <li class="production-section__item"><div class="what-do-thumb">
                     <img class="" src="./images/what-we-do-sec/img1.jpg"
                         alt="человек держит планшет в руке, на котором нарисованы соты разных цветов" width="370"
-                        height="294"><div class="paragraf-container"><p class="what-do-posttitle">Дизайнерские решения</p></div></div></li>
+                        height="294"><div class="paragraf-container"><p class="production-section__posttitle">Дизайнерские решения</p></div></div></li>
             </ul>
             </div>
         </section>
         <!--наша-команда-->
-        <section class="our-team-section section">
+        <section class="team-section section">
             <div class="container">
-            <h2 class="our-team-title">Наша команда</h2>
-            <ul class="our-team-list">
-                <li class="our-team-item">
+            <h2 class="team-section__title">Наша команда</h2>
+            <ul class="team-section__list">
+                <li class="team-section__item">
                     <img src="./images/our-team/img.jpg" alt="молодой мужчина в очках с бородой" width="270" height="260">
                     <div class="team-name-container">
-                    <h3 class="team-item-title">Игорь Демьяненко</h3>
-                    <p class="team-item-posttitle" lang="en">Product Designer</p>
+                    <h3 class="team-section__title-name">Игорь Демьяненко</h3>
+                    <p class="team-section__posttitle" lang="en">Product Designer</p>
                     <ul class="team-socials-list">
                         <li class="team-socials-item">
                             <a href="" class="team-socials-link"><svg class="team-socials-icon" width="20" height="20">
@@ -127,11 +128,11 @@
                     </ul>
                     </div>
                 </li>
-                <li class="our-team-item">
+                <li class="team-section__item">
                     <img src="./images/our-team/img1.jpg" alt="молодаяженщина в очках" width="270" height="260">
                     <div class="team-name-container">
-                    <h3 class="team-item-title">Ольга Репина</h3>
-                    <p class="team-item-posttitle" lang="en">Frontend Developer</p>
+                    <h3 class="team-section__title-name">Ольга Репина</h3>
+                    <p class="team-section__posttitle" lang="en">Frontend Developer</p>
                     <ul class="team-socials-list">
                         <li class="team-socials-item">
                             <a href="" class="team-socials-link"><svg class="team-socials-icon" width="20" height="20">
@@ -152,12 +153,12 @@
                     </ul>
                     </div>
                 </li>
-                <li class="our-team-item">
+                <li class="team-section__item">
                     <img src="./images/our-team/img2.jpg" alt="улыбчивый молодой мужчина с коротко стриженой бородой"
                         width="270" height="260">
                     <div class="team-name-container">
-                    <h3 class="team-item-title">Николай Тарасов</h3>
-                    <p class="team-item-posttitle" lang="en">Marketing</p>
+                    <h3 class="team-section__title-name">Николай Тарасов</h3>
+                    <p class="team-section__posttitle" lang="en">Marketing</p>
                     <ul class="team-socials-list">
                     <li class="team-socials-item">
                         <a href="" class="team-socials-link"><svg class="team-socials-icon" width="20" height="20">
@@ -178,11 +179,11 @@
                     </ul>
                     </div>
                 </li>
-                <li class="our-team-item">
+                <li class="team-section__item">
                     <img src="./images/our-team/img3.jpg" alt="молодой мужчина в очках с бородой" width="270" height="260">
                     <div class="team-name-container">
-                    <h3 class="team-item-title">Михаил Ермаков</h3>
-                    <p class="team-item-posttitle" lang="en">UI Designer</p>
+                    <h3 class="team-section__title-name">Михаил Ермаков</h3>
+                    <p class="team-section__posttitle" lang="en">UI Designer</p>
                     <ul class="team-socials-list">
                         <li class="team-socials-item">
                             <a href="" class="team-socials-link"><svg class="team-socials-icon" width="20" height="20">
@@ -206,6 +207,7 @@
             </ul>
             </div>
         </section>
+        <!--reg-customers-->
         <section class="section">
             <div class="container">
             <h2 class="regular-customers-title">Постоянные клиенты</h2>
@@ -242,48 +244,48 @@
         <div class="container footer-container">
             <div class="footer-adres-container">
                 <a href="index.html" class="link-logo"> Web<span class="logo-down">Studio</span></a>
-                <address class="footer-adress">
-                    <ul class="footer-list">
-                        <li class="footer-list-item"><a href="https://goo.gl/maps/oyDhFiv2QyC5TaA9A"
-                                class="footer-item-adres" target=_blank rel="noopener noreferrer nofollow">г.
+                <address class="footer__adress">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="https://goo.gl/maps/oyDhFiv2QyC5TaA9A"
+                                class="footer-adress__adres" target=_blank rel="noopener noreferrer nofollow">г.
                                 Киев, пр-т Леси Украинки, 26</a></li>
-                        <li class="footer-list-item"><a href="mailto:info@example.com"
-                                class="footer-link">info@example.com</a></li>
-                        <li class="footer-list-item"><a href="tel:+380991111111" class="footer-link">+380991111111</a></li>
+                        <li class="footer__item"><a href="mailto:info@example.com"
+                                class="footer-adress__link">info@example.com</a></li>
+                        <li class="footer__item"><a href="tel:+380991111111" class="footer-adress__link">+380991111111</a></li>
                     </ul>
                 </address>
             </div>
             <div class="footer-socials">
-                <p class="footer-socials-title">присоединяйтесь</p>
-                <ul class="footer-socials-list">
-                    <li class="footer-socials-item">
-                        <a href="" class="footer-socials-link"><svg class="footer-socials-icon" width="20" height="20">
+                <p class="footer-socials__title">присоединяйтесь</p>
+                <ul class="footer-socials__list">
+                    <li class="footer-socials__item">
+                        <a href="" class="footer-socials__link"><svg class="footer-socials__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg></a>
                     </li>
-                    <li class="footer-socials-item">
-                        <a href="" class="footer-socials-link"><svg class="footer-socials-icon" width="20" height="20">
+                    <li class="footer-socials__item">
+                        <a href="" class="footer-socials__link"><svg class="footer-socials__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter"></use>
                             </svg></a>
                     </li>
-                    <li class="footer-socials-item">
-                        <a href="" class="footer-socials-link"><svg class="footer-socials-icon" width="20" height="20">
+                    <li class="footer-socials__item">
+                        <a href="" class="footer-socials__link"><svg class="footer-socials__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg></a>
                     </li>
-                    <li class="footer-socials-item">
-                        <a href="" class="footer-socials-link"><svg class="footer-socials-icon" width="20" height="20">
+                    <li class="footer-socials__item">
+                        <a href="" class="footer-socials__link"><svg class="footer-socials__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg></a>
                     </li>
                 </ul>
             </div>
-            <div class="subscribe-footer-container">
-                <p class="subscribe-title">Подпишитесь на рассылку</p>
-                <form class="subscribe-area">
-                        <input type="email" class="input-area" placeholder="E-mail" class="placeholder-text-mail" />
+            <div class="subscribe-footer">
+                <p class="subscribe-footer__title">Подпишитесь на рассылку</p>
+                <form class="subscribe-footer__area">
+                        <input type="email" class="subscribe-footer__input" placeholder="E-mail" class="placeholder-text-mail" />
                     
-                    <button type="submit" class="subscribe-btn">Подписаться<svg class="subscribe-btn-icon" width="24"
+                    <button type="submit" class="subscribe-footer__btn">Подписаться<svg class="subscribe-footer__icon" width="24"
                             height="24">
                             <use href="./images/icons.svg#icon-icon-send"></use>
                         </svg></button></form>

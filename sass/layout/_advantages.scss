@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center;
 }
-.checkbox-container {
-  margin-top: 20px;
-}
-.advantages-list {
+// .checkbox-container {
+//   margin-top: 20px;
+// }
+.section__list {
   display: flex;
 }
 .advantages-item-icon {
@@ -27,20 +27,20 @@
   width: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
-.advantages-item {
+.section__item {
   & + & {
     margin-left: 30px;
   }
 }
 
-.advantages-title {
+.section__title {
   margin-top: 30px;
   margin-bottom: 10px;
-  @include text-font(null, 14px, 1.14, 0.03em); 
+  @include text-font(null, 14px, 1.14, 0.03em);
   text-transform: uppercase;
   color: var(--header-links-title-text-color);
 }
-.advantages-posttitle {
+.section__posttitle {
   @include text-font(null, 14px, 1.71, 0.03em);
   color: var(--primary-text-color);
 }
